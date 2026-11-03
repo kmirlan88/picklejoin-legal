@@ -21,11 +21,11 @@
 <body>
   <main>
     <h1>PickleJoin Privacy Policy</h1>
-    <p class="meta"><strong>Last updated:</strong> 2026-10-27</p>
+    <p class="meta"><strong>Last updated:</strong> 2026-11-03</p>
 
     <p>
-      This Privacy Policy explains how PickleJoin ("we", "us") collects, uses, and shares information when you use
-      our mobile app and services (the "Service").
+      This Privacy Policy explains how Kitefox Studio LLC, a Texas limited liability company ("PickleJoin", "we", "us"),
+      collects, uses, and shares information when you use the PickleJoin mobile app and services (the "Service").
     </p>
 
     <h2>Information We Collect</h2>
@@ -33,12 +33,17 @@
       <li><strong>Account information:</strong> email address for one-time password (OTP) authentication and, if used, Apple or Google sign-in.</li>
       <li><strong>Profile information you provide:</strong> name, username, skill level, home area, and an optional profile photo.</li>
       <li><strong>DUPR rating (optional):</strong> a doubles rating, a singles rating, and a DUPR ID, if you choose to add them.</li>
-      <li><strong>Location data:</strong> approximate or precise location (depending on device settings) to show nearby courts and games.</li>
-      <li><strong>Game and court data:</strong> games you create or join, and court details you submit.</li>
-      <li><strong>Availability:</strong> the weekly times you mark as free to play, and whether you have I'm Free Now turned on.</li>
+      <li><strong>Location data:</strong> approximate or precise location (depending on device settings) to show nearby courts and games, and, if you allow it, your location at the moment you check in to a game (see <a href="#showup">Show-up Record</a>).</li>
+      <li><strong>Game and court data:</strong> games you create or join, check-ins, match scores and round robins, and court details and court photos you submit.</li>
+      <li><strong>Availability:</strong> the weekly times and dates you mark as free to play, and whether you have I'm Free Now turned on.</li>
       <li><strong>Groups:</strong> groups you create or join, and the name, description, photo and home court of groups you own.</li>
       <li><strong>Friends:</strong> friend requests you send and receive, your friends list, and your personal friend link.</li>
       <li><strong>Messages:</strong> messages you send in game chats, group chats and direct messages.</li>
+      <li><strong>Attendance:</strong> when you leave a game you joined, and answers you, your host and other players give
+        about whether players made it to a game.</li>
+      <li><strong>Play again answers:</strong> whether you'd play again with players you met in a game.</li>
+      <li><strong>Court fees (organizers):</strong> Venmo, Cash App or PayPal usernames you add, the fee you set on a game,
+        and who you marked as paid.</li>
       <li><strong>Reports and blocks:</strong> reports you file and players you block.</li>
       <li><strong>Support requests:</strong> messages you send us through Help &amp; Support, and data requests.</li>
       <li><strong>Device information:</strong> push notification token, app version, and OS version.</li>
@@ -51,9 +56,11 @@
     <ul>
       <li>To authenticate you and maintain your account.</li>
       <li>To show nearby courts, games, and (where applicable) other players in those games.</li>
-      <li>To enable game creation, joining, and updates.</li>
+      <li>To enable game creation, joining, scores, round robins and updates.</li>
       <li>To run groups, friends, chat and direct messages.</li>
       <li>To show how many players are free near you, and to tell your friends when you are free.</li>
+      <li>To match players: Find partners, Need a 4th requests, games near you, and group best times.</li>
+      <li>To keep your show-up record and to use your Play again answers in matching.</li>
       <li>To send push notifications you opt into or that relate to your games, groups, friends and messages.</li>
       <li>To review reports, enforce our rules, and keep players safe.</li>
       <li>To improve performance, prevent abuse, and debug issues.</li>
@@ -63,15 +70,20 @@
     <ul>
       <li><strong>Your profile:</strong> other players can see your name, username, photo, skill level and DUPR rating (if
         you added one) when you appear in a game roster, a group member list, a chat, or your player card. Your player card
-        also shows how many games you've played, when you joined PickleJoin, and groups you have in common. Your DUPR ID, location, home
-        area and weekly availability are not shown to other players.</li>
-      <li><strong>Games:</strong> games you host, and the court and details you add, can be seen by players who can find or
-        join the game.</li>
+        also shows how many games you've played, your match win–loss record, when you joined PickleJoin, groups you have in
+        common, and any "Legend" badge you hold. Your DUPR ID, location, home area, weekly availability, show-up record and
+        Play again answers are not shown to other players.</li>
+      <li><strong>Games:</strong> games you host, and the court, details and court fee you add, can be seen by players who
+        can find or join the game. Players who can see a game can also see its scores and who checked in.</li>
       <li><strong>Groups:</strong> groups are joined by invite link only and don't appear in search or on the map. The
         group's name, description, photo and home court are visible to members, and anyone with the invite link can see a
         preview of the name, photo, member count and home court. Members can see the member list.</li>
       <li><strong>Friend link:</strong> anyone with your friend link (<code>picklejoin.app/u/...</code>) can see your name
         and photo. You can reset or turn off your link at any time.</li>
+      <li><strong>Court photos:</strong> signed-in players can see photos you add to a court, with your name.</li>
+      <li><strong>Court regulars:</strong> unless you turn it off, signed-in players may see your name, photo and number of
+        games on a court's list of regulars (see <a href="#regulars">Court Regulars and Legends</a>).</li>
+      <li><strong>Find partners:</strong> only if you turn it on (see <a href="#partners">Find Partners</a>).</li>
     </ul>
 
     <h2>Chat and Direct Messages</h2>
@@ -103,40 +115,125 @@
 
     <h2>Availability and I'm Free Now</h2>
     <p>
-      You can save a weekly availability grid and turn on I'm Free Now. While you are free (for up to two hours at a time,
-      or during the times you saved), we use your home area to count you among players free near other players. Players
-      who aren't your friends see only a number (for example, "3 players free near you"), never your name or exact
-      location. Your friends can see that you are free, as described above. Your availability grid is not shown to other
-      players.
+      You can save weekly times and specific dates when you're free, and turn on I'm Free Now. While you are free (for up
+      to two hours at a time, or during the times you saved), we use your home area to count you among players free near
+      other players. Players who aren't your friends see only a number (for example, "3 players free near you"), never your
+      name or exact location. Your friends can see that you are free, as described above. Your saved times are not shown to
+      other players, except the times you share with someone in <a href="#partners">Find Partners</a> if you turn it on.
+    </p>
+    <p>
+      Your saved times are also used to suggest games to you, for Need a 4th requests, and for group best times: a group's
+      owner and admins can see how many members are free at a time, never who.
     </p>
 
-    <h2>DUPR Rating</h2>
+    <h2 id="partners">Find Partners</h2>
     <p>
-      You can add a self-reported DUPR rating and DUPR ID to your profile. We don't verify these and we don't connect to
-      DUPR: we don't send any of your information to DUPR or receive any from it. Your rating is shown on your profile and
-      in game rosters with a "self-reported" label. Your DUPR ID is not shown to other players. You can remove your DUPR
-      details at any time.
+      Find partners is off until you turn it on, and you can turn it off at any time. While it's on, other players who have
+      also turned it on can see you in their list: your name, username, photo, skill level, DUPR doubles rating (if you added
+      one), your rough distance from them in whole miles, whether you're free now, and the next time you're both free. They
+      can send you a partner invite. They never see your home area or your full schedule. Players you've blocked, or who
+      blocked you, never see each other.
+    </p>
+
+    <h2>Need a 4th</h2>
+    <p>
+      When a host asks for a sub for an open spot, we first send the request to the host's friends and the game's group
+      members, with the host's first name. A few minutes later we may also send it to nearby players whose home area, skill,
+      saved times or I'm Free Now fit the game, even if they haven't turned on Find partners; that request doesn't name the
+      host. The host sees only how many players were asked, never who. You can turn off these requests in the app's
+      notification settings.
+    </p>
+
+    <h2>Scores and Round Robins</h2>
+    <p>
+      Players and hosts can record match scores, who played on which team, and who checked in. These are visible to players
+      who can see the game, and your win–loss record appears on your player card. We keep a log of who entered or changed
+      each score.
+    </p>
+
+    <h2>Courts: Details, Photos and Weather</h2>
+    <ul>
+      <li>Players who have played at a court can fix its details (number of courts, indoor or outdoor, lights, hours, fee)
+        and add photos. We keep a log of who made each change, which only our moderators can see.</li>
+      <li>Court photos are resized and their location metadata is removed in the app before upload. They're stored
+        privately and shown, with your name, to signed-in players. A photo is hidden from everyone when several players
+        report it, and you can delete your own photos at any time.</li>
+      <li>Weather forecasts on courts come from the U.S. National Weather Service. We send it only the court's location,
+        never yours.</li>
+    </ul>
+
+    <h2 id="regulars">Court Regulars and Legends</h2>
+    <p>
+      We count the games you play at each court through PickleJoin (not counting members-only group games). Each court shows
+      its top regulars to signed-in players: name, photo and number of games there, with a crown for the court's Legend.
+      Days and times you played are never shown. You can turn this off at any time in Settings → Privacy &amp; data, or from
+      a court's page; you're then left off every court's list. Blocked players don't see each other on these lists.
+    </p>
+
+    <h2 id="showup">Show-up Record</h2>
+    <p>
+      To help games fill reliably, we may keep a show-up record for each player:
+    </p>
+    <ul>
+      <li>when you leave a game you joined, and how close to the start;</li>
+      <li>after a game, yes or no answers from you, your host and the other players about whether each player made it;</li>
+      <li>when you check in, if you allow location access, we compare your location with the court's on our servers to
+        confirm you're there. We keep only whether you were at the court, not your location. Check-in works without
+        location.</li>
+    </ul>
+    <p>
+      Only you can see your record and score; we don't show it to other players, and there's no free text and no star
+      rating. If someone says you didn't make it, we let you know so you can answer within 48 hours, and you can ask a
+      moderator to review any outcome. Moderators reviewing a dispute can see who answered. If we later show a badge for
+      reliable players, we'll update this policy first.
+    </p>
+
+    <h2>Play Again</h2>
+    <p>
+      After a game, we may ask whether you'd play again with players there who aren't your friends. Your answers are
+      private: they're never shown to the players you answered about or to anyone else. We use them only for matching. A
+      "no" quietly stops showing the two of you to each other in Find partners, Need a 4th requests and new-game
+      notifications; a "yes" puts that player higher in your own lists. You can see and undo your "no" answers in the app.
+      Answers for each game are deleted after 18 months.
+    </p>
+
+    <h2>Court Fees</h2>
+    <p>
+      An organizer can show a per-player court fee on a game and add Venmo, Cash App or PayPal usernames. Those usernames are
+      shown only to players in that organizer's games that have a fee. The "paid" marks an organizer sets are seen only by
+      the organizer and the player marked. When you tap Pay, the app opens Venmo, Cash App or PayPal with the organizer's
+      username, the amount and a short note (court and date). PickleJoin never sees or processes the payment; those
+      services handle it under their own privacy policies.
     </p>
 
     <h2>Photos</h2>
     <p>
-      Profile and group photos are images you upload from your device in the app. We ask for access to your photo library
-      only when you choose a photo. Group photos are stored privately and shown only to group members and to people who
-      open the group's invite link.
+      Profile, group and court photos are images you upload from your device in the app. We ask for access to your photo
+      library only when you choose a photo. Group photos are stored privately and shown only to group members and to people
+      who open the group's invite link. Court photos are described above.
+    </p>
+
+    <h2>Calendar</h2>
+    <p>
+      If you choose to add a game to your calendar, the app writes the game's court and time to the calendar on your
+      device. We don't read your calendar, and nothing from it is sent to us.
     </p>
 
     <h2>Push Notifications</h2>
     <p>
       If you enable notifications, we use your device token to send updates such as game reminders, join/leave notices,
-      new group games, friend requests, messages, and nearby activity. You can choose which kinds you get in the app and
-      disable notifications anytime in your device settings.
+      scores and round robin rounds, new group games, friend requests, messages, Need a 4th requests, after-game check-ins
+      (show-up and Play again questions, which may name the players you played with), Court Legend updates, and nearby
+      activity. You can choose which kinds you get in the app and disable notifications anytime in your device settings.
     </p>
 
     <h2>Location Data</h2>
     <p>
       Location helps us show courts and games near you. You can enter a location manually or turn off location access
-      in your device settings. Some features may be limited without location. Your home area is used for nearby games and
-      I'm Free Now, and is never shown to other players.
+      in your device settings. Some features may be limited without location. Your home area is used for nearby games,
+      I'm Free Now, Find partners and Need a 4th, and is never shown to other players; Find partners shows only a rough
+      distance in whole miles. Your location at check-in is used as described in <a href="#showup">Show-up Record</a>
+      and isn't kept.
     </p>
 
     <h2>Sharing of Information</h2>
@@ -153,36 +250,43 @@
       <li><strong>RevenueCat</strong> (subscriptions and purchase infrastructure)</li>
       <li><strong>Resend</strong> (sending sign-in codes by email, and delivering support requests to us)</li>
       <li><strong>OpenStreetMap Nominatim</strong> (turning addresses and place names you enter into map locations)</li>
-      <li><strong>Apple / Google</strong> (sign-in services, if you choose to use them)</li>
+      <li><strong>U.S. National Weather Service</strong> (court forecasts; we send only the court's location)</li>
+      <li><strong>Apple / Google</strong> (sign-in services, if you choose to use them; on Android, Google also provides
+        maps and push notification delivery)</li>
     </ul>
     <p>
       These providers process information on our behalf under instructions consistent with this policy and applicable law.
+      When you tap Pay for a court fee, Venmo, Cash App or PayPal receive the organizer's username, the amount and the note
+      described above; they are not our service providers.
     </p>
 
     <h2>User-Generated Content</h2>
     <p>
-      Games, court details, group names, descriptions and photos, profile details, and messages you create may be visible to
-      other users as described above. Please avoid sharing sensitive personal information. PickleJoin does not verify users
-      or locations, and users are responsible for their own interactions and safety during in-person games.
+      Games, scores, court details and photos, group names, descriptions and photos, profile details, and messages you
+      create may be visible to other users as described above. Please avoid sharing sensitive personal information.
+      PickleJoin does not verify users or locations, and users are responsible for their own interactions and safety during
+      in-person games.
     </p>
 
     <h2>Reports and Moderation</h2>
     <p>
-      You can report messages, players, games, courts and groups in the app. Reports are reviewed by our moderators,
-      usually within 24 to 48 hours. So moderators can still see what was reported after it changes or is deleted, a report
-      keeps a record of it as it was when the report was filed:
+      You can report messages, players, games, courts, court photos and groups in the app. Reports are reviewed by our
+      moderators, usually within 24 to 48 hours. So moderators can still see what was reported after it changes or is
+      deleted, a report keeps a record of it as it was when the report was filed:
     </p>
     <ul>
       <li>the reported message (for a direct message, a copy of its text);</li>
       <li>the reported player's name and username;</li>
       <li>for a group report, the group's name, description and photo;</li>
+      <li>for a court photo report, the photo;</li>
       <li>a private copy of the reported player's profile photo, for reports about a player or a player's message.</li>
     </ul>
     <p>
       This record is visible only to our moderators, not to other players. The private copy of the profile photo is deleted
-      when the report is closed, or after 90 days at most, even if the reported player has deleted their account. A group
-      photo kept for a report is deleted when the report is closed, unless the group still uses it. Other report details are
-      kept as long as needed to keep the community safe and to meet legal obligations.
+      when the report is closed, or after 90 days at most, even if the reported player has deleted their account. A group or
+      court photo kept for a report is deleted when the report is closed, unless it's still in use. Other report details are
+      kept as long as needed to keep the community safe and to meet legal obligations. When a host removes a player from a
+      game, we keep a record of it for moderation; it isn't shown to other players.
     </p>
 
     <h2>Data Retention</h2>
@@ -200,6 +304,11 @@
       <li>your friendships, friend requests and friend link;</li>
       <li>all your direct message conversations (for both people in them);</li>
       <li>reports you filed;</li>
+      <li>your show-up record, and the attendance answers you gave about others;</li>
+      <li>your Play again answers;</li>
+      <li>your court regulars counts and Legend crowns, Find partners setting and partner invites;</li>
+      <li>your court fee usernames and paid marks;</li>
+      <li>your court photos (removed right away, and their files deleted unless a report still needs them);</li>
       <li>groups you own, unless an admin can take over (ownership passes to the longest-standing admin).</li>
     </ul>
     <p>
@@ -208,6 +317,8 @@
     <ul>
       <li>Messages you sent in game and group chats stay in those chats for the other players, shown as from "Deleted
         player".</li>
+      <li>Match scores from games you played stay in the other players' records, shown as from "Former player", and court
+        details you fixed stay without your name.</li>
       <li>If another player reported you or your content before you deleted your account, that report and its record
         (described under Reports and Moderation) are kept so moderators can finish reviewing it. The private copy of your
         profile photo is deleted when the report is closed, or after 90 days at most.</li>
@@ -219,7 +330,10 @@
       <li>Choose which notifications you get in the app, or disable them in device settings.</li>
       <li>Turn off location access or use a manual location.</li>
       <li>Turn I'm Free Now on or off, and edit or clear your availability.</li>
-      <li>Add, change or remove your DUPR details and profile photo.</li>
+      <li>Turn Find partners on or off.</li>
+      <li>Leave the court regulars lists.</li>
+      <li>Undo Play again "no" answers, or clear them all.</li>
+      <li>Add, change or remove your DUPR details, profile photo, court photos and court fee usernames.</li>
       <li>Reset or turn off your friend link, unfriend players, and block players.</li>
       <li>Leave groups at any time.</li>
       <li>Delete your account from the app settings.</li>
@@ -234,7 +348,8 @@
       <p>
         You can request a copy of your data or delete your account at any time through the app settings. If you need help
         with a data request, you can contact us at <a href="mailto:support@picklejoin.app">support@picklejoin.app</a>.
-        We will respond to verified requests as required by applicable law.
+        We will respond to verified requests as required by applicable law. A copy of your data includes your own
+        attendance and Play again answers, but not other players' private answers about you or who gave them.
       </p>
     </div>
 
@@ -257,7 +372,7 @@
 
     <h2>Contact Us</h2>
     <p>
-      If you have questions, or want to exercise your privacy rights, email us at
+      If you have questions, or want to exercise your privacy rights, email Kitefox Studio LLC at
       <a href="mailto:support@picklejoin.app">support@picklejoin.app</a>.
     </p>
   </main>
